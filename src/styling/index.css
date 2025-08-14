@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../fonts/Pretendard-Regular.ttf') format('ttf');
+    src: url('../../public/font/Pretendard-Regular.ttf format') format('ttf');
 }
 
 body {
