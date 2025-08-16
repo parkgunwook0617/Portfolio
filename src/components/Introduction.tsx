@@ -1,0 +1,47 @@
+import { Link } from 'react-router-dom';
+import '../styling/index.css'
+import BlurText from './animation/BlurText';
+import Magnet from './animation/Magnet';
+import { useState } from 'react';
+
+const Introduction = () => {
+    const [isEnd, setIsEnd] = useState(false)
+
+    const onAnimationComplete = () => {
+        setIsEnd(true);
+    };
+
+    return (
+        <section className='pt-40 pb-40 bg-paynes-grey text-white'>
+            <BlurText
+                text="안녕하세요! 웹 개발자 박건욱입니다."
+                delay={150}
+                animateBy="words"
+                direction="top"
+                className="justify-center text-[32px] mb-3"
+            />
+            <BlurText
+                text="Full-Stack Developer"
+                delay={150}
+                animateBy="words"
+                direction="top"
+                className="justify-center text-[24px]"
+            />
+            <BlurText
+                text="안정적인 구조에 집중하는 개발자"
+                delay={150}
+                animateBy="words"
+                direction="top"
+                className={`justify-center text-[16px] mb-12 ${isEnd ? '' : 'pb-10.5'} `}
+                onAnimationComplete={onAnimationComplete}
+            />
+            {isEnd && (
+                <Magnet padding={200} disabled={false} magnetStrength={15} className='w-full' innerClassName='w-35 text-center border rounded-full mx-auto p-2'>
+                    <Link to={'/'}>프로젝트 보러가기</Link>
+                </Magnet>
+            )}
+        </section >
+    );
+}
+
+export default Introduction;
