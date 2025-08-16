@@ -22,25 +22,25 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`sticky flex justify-between top-0 p-4 pl-20 pr-20 bg-white
-            ${isScrolled ? 'shadow-xl/20 transition-shadow duration-300 ease-in-out' : 'transition-shadow duration-300 ease-in-out'}`}>
-            <h1 className="text-desert-sand font-semibold">PGW Portfolio</h1>
-            <div className='flex w-md justify-between text-paynes-grey font-medium space-x-6'>
-                <Link to={'/'} className='group relative text-paynes-grey'>
-                    Home
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-paynes-grey transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-                <Link to={'/'} className='group relative text-paynes-grey'>
+        <nav className={`sticky flex justify-between top-0 p-4 pl-20 pr-20 bg-paynes-grey
+            ${isScrolled ? 'shadow-xl/20 transition-all duration-300 ease-in-out bg-white' : 'transition-shadow duration-300 ease-in-out'}`}>
+            <h1 className='font-semibold text-desert-sand'>PGW Portfolio</h1>
+            <div className='flex w-md justify-between font-medium space-x-6'>
+                <Link to={'/'} className={`group relative ${isScrolled ? 'text-paynes-grey' : 'text-white'}`}>
                     About
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-paynes-grey transition-all duration-300 group-hover:w-full"></span>
+                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${isScrolled ? 'bg-paynes-grey' : 'bg-white'} transition-all duration-300 group-hover:w-full`}></span>
                 </Link>
-                <Link to={'/'} className='group relative text-paynes-grey'>
+                <Link to={'/'} className={`group relative ${isScrolled ? 'text-paynes-grey' : 'text-white'}`}>
                     Skills
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-paynes-grey transition-all duration-300 group-hover:w-full"></span>
+                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${isScrolled ? 'bg-paynes-grey' : 'bg-white'} transition-all duration-300 group-hover:w-full`}></span>
                 </Link>
-                <Link to={'/'} className='group relative text-paynes-grey'>
+                <Link to={'/'} className={`group relative ${isScrolled ? 'text-paynes-grey' : 'text-white'}`}>
                     Projects
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-paynes-grey transition-all duration-300 group-hover:w-full"></span>
+                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${isScrolled ? 'bg-paynes-grey' : 'bg-white'} transition-all duration-300 group-hover:w-full`}></span>
+                </Link>
+                <Link to={'/'} className={`group relative ${isScrolled ? 'text-paynes-grey' : 'text-white'}`}>
+                    History
+                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${isScrolled ? 'bg-paynes-grey' : 'bg-white'} transition-all duration-300 group-hover:w-full`}></span>
                 </Link>
             </div>
         </nav>
