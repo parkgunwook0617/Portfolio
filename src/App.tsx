@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Introduction from './components/Introduction'
+import Skills from './components/Skills'
 import './styling/index.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Introduction></Introduction>
+      <Skills></Skills>
     </div>
   )
 }
