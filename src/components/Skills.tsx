@@ -1,13 +1,4 @@
-import { useState } from "react";
-
 const Skills = () => {
-
-    const [skillType, setskillType] = useState('Frontend');
-
-    const selectSkilltype = (type: string) => {
-        setskillType(type)
-    }
-
     return (
         <section className='bg-melon text-white'>
             <div className='text-center text-[32px]'>Skills</div>
