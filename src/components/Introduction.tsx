@@ -18,25 +18,18 @@ const Introduction = () => {
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="justify-center text-[32px] mb-3"
+                className="justify-center text-[64px] mb-3"
             />
             <BlurText
                 text="Full-Stack Developer"
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="justify-center text-[24px]"
-            />
-            <BlurText
-                text="안정적인 구조에 집중하는 개발자"
-                delay={150}
-                animateBy="words"
-                direction="top"
-                className={`justify-center text-[16px] mb-12 ${isEnd ? '' : 'pb-10.5'} `}
+                className={`justify-center text-[32px] mb-12 ${isEnd ? '' : 'pb-13.5'} `}
                 onAnimationComplete={onAnimationComplete}
             />
             {isEnd && (
-                <Magnet padding={200} disabled={false} magnetStrength={15} className='w-full' innerClassName='w-35 text-center border rounded-full mx-auto p-2'>
+                <Magnet padding={200} disabled={false} magnetStrength={15} className='w-full' innerClassName='w-70 text-[24px] text-center border rounded-full mx-auto p-2'>
                     <Link to={'/'}>프로젝트 보러가기</Link>
                 </Magnet>
             )}
