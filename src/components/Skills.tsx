@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <section className='bg-melon text-white'>
-            <div className='text-center text-[32px]'>Skills</div>
+            <div className='text-center text-[42px]'>SKILLS</div>
             <div className='flex justify-around text-center text-paynes-grey pt-10 pb-10'>
                 <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-4 rounded-xl mb-4 w-[200px]'>
                     <div>Frontend</div>
