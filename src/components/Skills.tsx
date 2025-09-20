@@ -2,7 +2,7 @@ import AnimatedContent from "./animation/AnimatedContent";
 
 const Skills = () => {
     return (
-        <section id='skills' className='bg-melon h-[1300px] text-white'>
+        <section id='skills' className='bg-melon h-screen text-white'>
             <AnimatedContent
                 distance={150}
                 direction="vertical"

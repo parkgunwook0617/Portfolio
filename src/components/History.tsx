@@ -2,7 +2,7 @@ import AnimatedContent from "./animation/AnimatedContent";
 
 const History = () => {
     return (
-        <div id='history' className='bg-persian-orange'>
+        <div id='history' className='bg-persian-orange h-screen'>
             <AnimatedContent
                 distance={150}
                 direction='vertical'
@@ -18,9 +18,9 @@ const History = () => {
                 <div className='text-[64px] text-white text-center'>HISTORY</div>
             </AnimatedContent>
             <div className='flex flex-col gap-[30px] pt-[40px] pb-[40px]'>
-                <div className='flex flex-col w-[70%] h-[300px] bg-desert-sand rounded-xl m-auto'>
+                <div className='flex flex-col w-auto px-5 h-[300px] bg-desert-sand rounded-xl m-auto'>
                     <div className='text-[32px] text-white text-center'>PIROGRAMMING</div>
-                    <div className='h-full flex items-center justify-around'>
+                    <div className='h-full flex gap-15 items-center justify-around'>
                         <img src="/images/Pirogramming.png" className='w-[400px] rounded-xl' alt='피로그래밍' />
                         <div className='flex flex-col gap-4'>
                             <div className='text-[24px] text-white'>대학생 연합 IT 동아리</div>
@@ -29,9 +29,9 @@ const History = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col w-[70%] h-[300px] bg-desert-sand rounded-xl m-auto'>
+                <div className='flex flex-col w-auto px-5 h-[300px] bg-desert-sand rounded-xl m-auto'>
                     <div className='text-[32px] text-white text-center'>SKKUDING</div>
-                    <div className='h-full flex items-center justify-around'>
+                    <div className='h-full flex gap-15 items-center justify-around'>
                         <img src="/images/skkuding.png" className='w-[400px] rounded-xl' alt='피로그래밍' />
                         <div className='flex flex-col gap-4'>
                             <div className='text-[24px] text-white'>교내 웹 개발 동아리</div>
@@ -40,9 +40,9 @@ const History = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col w-[70%] h-[300px] bg-desert-sand rounded-xl m-auto'>
+                <div className='flex flex-col w-auto px-5 h-[300px] bg-desert-sand rounded-xl m-auto'>
                     <div className='text-[32px] text-white text-center'>Spoeum</div>
-                    <div className='h-full flex items-center justify-around'>
+                    <div className='h-full flex gap-15 items-center justify-around'>
                         <img src="/images/Spoeum.png" className='w-[400px] rounded-xl' alt='피로그래밍' />
                         <div className='flex flex-col gap-4'>
                             <div className='text-[24px] text-white'>산학협력프로젝트</div>
