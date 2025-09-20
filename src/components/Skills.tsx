@@ -1,7 +1,22 @@
+import AnimatedContent from "./animation/AnimatedContent";
+
 const Skills = () => {
     return (
         <section id='skills' className='bg-melon h-[1300px] text-white'>
-            <div className='text-center text-[64px]'>SKILLS</div>
+            <AnimatedContent
+                distance={150}
+                direction="vertical"
+                reverse={true}
+                duration={1.2}
+                ease="bounce.out"
+                initialOpacity={0.2}
+                animateOpacity
+                scale={1.1}
+                threshold={0.2}
+                delay={0.3}
+            >
+                <div className='text-center text-[64px]'>SKILLS</div>
+            </AnimatedContent>
             <div className='h-full flex justify-around items-center text-center text-paynes-grey pt-10 pb-10'>
                 <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-4 rounded-xl mb-4 w-[30%]'>
                     <div className='text-[32px]'>Frontend</div>

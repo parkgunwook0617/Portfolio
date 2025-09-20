@@ -1,7 +1,22 @@
+import AnimatedContent from "./animation/AnimatedContent";
+
 const History = () => {
     return (
         <div id='history' className='bg-persian-orange'>
-            <div className='text-[64px] text-white text-center'>HISTORY</div>
+            <AnimatedContent
+                distance={150}
+                direction='vertical'
+                reverse={true}
+                duration={1.2}
+                ease="bounce.out"
+                initialOpacity={0.2}
+                animateOpacity
+                scale={1.1}
+                threshold={0.2}
+                delay={0.3}
+            >
+                <div className='text-[64px] text-white text-center'>HISTORY</div>
+            </AnimatedContent>
             <div className='flex flex-col gap-[30px] pt-[40px] pb-[40px]'>
                 <div className='flex flex-col w-[70%] h-[300px] bg-desert-sand rounded-xl m-auto'>
                     <div className='text-[32px] text-white text-center'>PIROGRAMMING</div>

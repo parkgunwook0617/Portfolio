@@ -1,8 +1,23 @@
+import AnimatedContent from "./animation/AnimatedContent";
+
 const Projects = () => {
 
     return (
         <section id='projects' className='bg-old-rose'>
-            <div className='text-center text-[64px] text-white'>PROJECTS</div>
+            <AnimatedContent
+                distance={150}
+                direction='vertical'
+                reverse={true}
+                duration={1.2}
+                ease="bounce.out"
+                initialOpacity={0.2}
+                animateOpacity
+                scale={1.1}
+                threshold={0.2}
+                delay={0.3}
+            >
+                <div className='text-center text-[64px] text-white'>PROJECTS</div>
+            </AnimatedContent>
             <div className="flex flex-wrap gap-12 justify-center pt-[40px] pb-[40px]">
                 {/* Project 1 */}
                 <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
