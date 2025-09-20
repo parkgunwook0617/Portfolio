@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import '../styling/index.css'
 import BlurText from './animation/BlurText';
 import Magnet from './animation/Magnet';
@@ -12,7 +11,7 @@ const Introduction = () => {
     };
 
     return (
-        <section className='pt-40 pb-40 bg-paynes-grey text-white h-[1300px] flex flex-col justify-center'>
+        <section id='about' className='pt-40 pb-40 bg-paynes-grey text-white h-[1300px] flex flex-col justify-center'>
             <BlurText
                 text="안녕하세요! 웹 개발자 박건욱입니다."
                 delay={150}
@@ -30,7 +29,7 @@ const Introduction = () => {
             />
             {isEnd && (
                 <Magnet padding={200} disabled={false} magnetStrength={15} className='w-full' innerClassName='w-70 text-[24px] text-center border rounded-full mx-auto p-2'>
-                    <Link to={'/'}>프로젝트 보러가기</Link>
+                    <a href='#projects'>프로젝트 보러가기</a>
                 </Magnet>
             )}
         </section >
