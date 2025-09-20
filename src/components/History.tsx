@@ -2,7 +2,7 @@ import AnimatedContent from "./animation/AnimatedContent";
 
 const History = () => {
     return (
-        <div id='history' className='bg-persian-orange h-screen'>
+        <div id='history' className='bg-persian-orange'>
             <AnimatedContent
                 distance={150}
                 direction='vertical'
