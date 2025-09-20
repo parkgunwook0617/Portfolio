@@ -22,4 +22,5 @@ body {
     font-family: 'Pretendard', sans-serif;
     caret-color: transparent;
     user-select: none;
+    overflow-x: hidden;
 }
