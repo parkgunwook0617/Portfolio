@@ -1,7 +1,7 @@
 const History = () => {
     return (
         <div className='bg-persian-orange'>
-            <div className='text-[42px] text-white text-center'>HISTORY</div>
+            <div className='text-[64px] text-white text-center'>HISTORY</div>
             <div className='flex flex-col gap-[30px] pt-[40px] pb-[40px]'>
                 <div className='flex flex-col w-[70%] h-[300px] bg-desert-sand rounded-xl m-auto'>
                     <div className='text-[32px] text-white text-center'>PIROGRAMMING</div>

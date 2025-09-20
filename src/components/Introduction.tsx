@@ -12,7 +12,7 @@ const Introduction = () => {
     };
 
     return (
-        <section className='pt-40 pb-40 bg-paynes-grey text-white'>
+        <section className='pt-40 pb-40 bg-paynes-grey text-white h-[1300px] flex flex-col justify-center'>
             <BlurText
                 text="안녕하세요! 웹 개발자 박건욱입니다."
                 delay={150}

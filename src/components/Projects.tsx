@@ -2,7 +2,7 @@ const Projects = () => {
 
     return (
         <section className='bg-old-rose'>
-            <div className='text-center text-[42px] text-white'>PROJECTS</div>
+            <div className='text-center text-[64px] text-white'>PROJECTS</div>
             <div className="flex flex-wrap gap-12 justify-center pt-[40px] pb-[40px]">
                 {/* Project 1 */}
                 <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
