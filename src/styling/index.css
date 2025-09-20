@@ -8,6 +8,11 @@
     --color-paynes-grey: #495867;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
 @font-face {
     font-family: 'Pretendard';
     src: url('../../public/font/Pretendard-Regular.ttf') format('ttf');
