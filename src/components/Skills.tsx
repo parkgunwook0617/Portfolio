@@ -3,7 +3,7 @@ const Skills = () => {
         <section id='skills' className='flex flex-col bg-melon h-screen text-white'>
             <div className='text-center text-[32px] sm:text-[64px]'>SKILLS</div>
             <div className='flex flex-grow justify-around items-center text-center text-paynes-grey pt-10 pb-10'>
-                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-4 rounded-xl mb-4 w-[30%]'>
+                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-1 sm:p-4 rounded-xl mb-4 w-[30%]'>
                     <div className='text-[12px] sm:text-[32px]'>Frontend</div>
                     <div className='flex justify-between items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className='w-5 h-5 sm:w-15 sm:h-15'>
@@ -36,7 +36,7 @@ const Skills = () => {
                         <div className='text-[12px] sm:text-[24px]'>React</div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-4 rounded-xl mb-4 w-[30%]'>
+                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-1 sm:p-4 rounded-xl mb-4 w-[30%]'>
                     <div className='sm:text-[32px]'>Backend</div>
                     <div className='flex justify-between items-center'>
                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className='w-5 h-5 sm:w-15 sm:h-15'>
@@ -63,7 +63,7 @@ const Skills = () => {
                         <div className='text-[12px] sm:text-[24px]'>Django</div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-4 rounded-xl mb-4 w-[30%]'>
+                <div className='flex flex-col gap-4 border border-desert-sand bg-desert-sand p-1 sm:p-4 rounded-xl mb-4 w-[30%]'>
                     <div className='sm:text-[32px]'>DevOps</div>
                     <div className='flex justify-between items-center'>
                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className='w-5 h-5 sm:w-15 sm:h-15'>
