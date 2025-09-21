@@ -1,30 +1,15 @@
-import AnimatedContent from "./animation/AnimatedContent";
-
 const Projects = () => {
 
     return (
         <section id='projects' className='bg-old-rose'>
-            <AnimatedContent
-                distance={150}
-                direction='vertical'
-                reverse={true}
-                duration={1.2}
-                ease="bounce.out"
-                initialOpacity={0.2}
-                animateOpacity
-                scale={1.1}
-                threshold={0.2}
-                delay={0.3}
-            >
-                <div className='text-center text-[64px] text-white'>PROJECTS</div>
-            </AnimatedContent>
+            <div className='text-center text-[32px] sm:text-[64px] text-white'>PROJECTS</div>
             <div className="flex flex-wrap gap-12 justify-center pt-[40px] pb-[40px]">
                 {/* Project 1 */}
-                <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
-                    <div className='text-[24px] text-center text-white pb-4 pt-4'>멈추지 않을 당신의 걸음을 위한 맞춤형 서비스</div>
+                <div className='flex flex-col justify-center w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] bg-melon rounded-xl'>
+                    <div className='sm:text-[24px] text-center text-white pb-4 pt-4'>멈추지 않을 당신의 걸음을 위한 맞춤형 서비스</div>
                     <div className='flex p-4'>
                         <img src="/images/pirogramming_project.png" className='w-[40%] h-full' alt='프로젝트1' />
-                        <div className='flex flex-col pl-4 justify-between items-center gap-[20px] text-[24px] text-white'>
+                        <div className='flex flex-col pl-4 justify-between items-center gap-[20px] text-[12px] sm:text-[24px] text-white'>
                             <div>걸음걸이</div>
                             <div>5人 프로젝트</div>
                             <div>2025.01.27-2025.02.18</div>
@@ -42,11 +27,12 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
-                    <div className='text-[24px] text-center text-white pb-4 pt-4'>성균관대학교 학우들을 위한 Online Judge 서비스</div>
+                {/* Project 2 */}
+                <div className='flex flex-col justify-center w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] bg-melon rounded-xl'>
+                    <div className='sm:text-[24px] text-center text-white pb-4 pt-4'>성균관대학교 학우들을 위한 Online Judge 서비스</div>
                     <div className='flex justify-between items-center flex-col p-4'>
                         <img src="/images/SKKUDING_project.png" className='w-[80%]' alt='프로젝트2' />
-                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[24px] text-white pt-4'>
+                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[12px] sm:text-[24px] text-white pt-4'>
                             <div className='flex flex-col h-full justify-around items-center'>
                                 <div>CODEDANG</div>
                                 <div>단체 프로젝트 (30人+)</div>
@@ -69,11 +55,12 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
-                    <div className='text-[24px] text-center text-white pb-4 pt-4'>프로골프투어에 필요한 종합 온라인 플랫폼</div>
+                {/* Project 3 */}
+                <div className='flex flex-col justify-center w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] bg-melon rounded-xl'>
+                    <div className='sm:text-[24px] text-center text-white pb-4 pt-4'>프로골프투어에 필요한 종합 온라인 플랫폼</div>
                     <div className='flex justify-between items-center flex-col p-4'>
                         <img src="/images/SKKUDING_project.png" className='w-[80%]' alt='프로젝트2' />
-                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[24px] text-white pt-4'>
+                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[12px] sm:text-[24px] text-white pt-4'>
                             <div className='flex flex-col h-full justify-around items-center'>
                                 <div>Spoeum</div>
                                 <div>5人 프로젝트</div>
@@ -91,11 +78,12 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center w-[600px] h-[600px] bg-melon rounded-xl'>
-                    <div className='text-[24px] text-center text-white pb-4 pt-4'>자기소개를 위한 포트폴리오</div>
+                {/* Project 4 */}
+                <div className='flex flex-col justify-center w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] bg-melon rounded-xl'>
+                    <div className='sm:text-[24px] text-center text-white pb-4 pt-4'>자기소개를 위한 포트폴리오</div>
                     <div className='flex justify-between items-center flex-col p-4'>
                         <img src="/images/Portfolio_project.png" className='w-[70%] border border-white' alt='프로젝트2' />
-                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[24px] text-white pt-4'>
+                        <div className='flex pl-4 justify-between items-center gap-[20px] text-[12px] sm:text-[24px] text-white pt-4'>
                             <div className='flex flex-col h-full justify-around items-center'>
                                 <div>PGW Portfolio</div>
                                 <div>개인 프로젝트</div>
