@@ -21,7 +21,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`sticky flex gap-4 justify-between top-0 p-4 text-[12px] sm:text-[16px] sm:pl-4 sm:pr-4 md:pl-20 md:pr-20 bg-paynes-grey
+        <nav className={`sticky z-1000 flex gap-4 justify-between top-0 p-4 text-[12px] sm:text-[16px] sm:pl-4 sm:pr-4 md:pl-20 md:pr-20 bg-paynes-grey
             ${isScrolled ? 'shadow-xl/20 transition-all duration-300 ease-in-out bg-white' : 'transition-shadow duration-300 ease-in-out'}`}>
             <h1 className='text-[7px] sm:text-[12px] font-semibold text-desert-sand'>PGW Portfolio</h1>
             <div className='flex w-md justify-around font-medium'>
