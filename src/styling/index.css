@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-desert-sand: #ECC9AF;
+    --color-melon: #E7AD99;
+    --color-old-rose: #CE796B;
+    --color-persian-orange: #C18C5D;
+    --color-paynes-grey: #495867;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../../public/font/Pretendard-Regular.ttf') format('ttf');
+}
+
+body {
+    font-family: 'Pretendard', sans-serif;
+    caret-color: transparent;
+    user-select: none;
+    overflow-x: hidden;
+}
