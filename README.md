@@ -1,11 +1,10 @@
-## Project Information
-### Display my Tech Stack, Projects and Organization. 
+## 저의 기술 스택과, 경험을 보여주기 위한 간단한 포트폴리오 페이지입니다.
 
-## Project Link
+## 배포링크
 https://pgw-portfolio.vercel.app
 
-## Tech Stack
-### TypeScript, React, Vite, TailwindCSS, DevContainer, Vercel
-
-## Architecture
-<img width="817" height="296" alt="Architecture" src="https://github.com/user-attachments/assets/f07b89eb-4104-4210-bdfb-62b56bd1786e" />
+## 기술스택
+<img src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
